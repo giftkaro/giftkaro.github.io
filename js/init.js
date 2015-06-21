@@ -47,14 +47,14 @@
 				config: {
 					mode: 'transform'
 				},
-				navButton: {
-					breakpoints: 'medium',
-					height: '4em',
-					html: '<span class="toggle" data-action="toggleLayer" data-args="navPanel"></span>',
-					position: 'top-left',
-					side: 'top',
-					width: '6em'
-				},
+				// navButton: {
+				// 	breakpoints: 'medium',
+				// 	height: '4em',
+				// 	html: '<span class="toggle" data-action="toggleLayer" data-args="navPanel"></span>',
+				// 	position: 'top-left',
+				// 	side: 'top',
+				// 	width: '6em'
+				// },
 				navPanel: {
 					animation: 'overlayX',
 					breakpoints: 'medium',
