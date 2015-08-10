@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Giftkaro</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="Solution to all your gifting problems" />
+		<meta name="keywords" content="Giftkaro, Gifts, Online Gifting" />
+		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-layers.min.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-xlarge.css" />
+		</noscript>
+
+
+		<style type="text/css">
+			input[type="text"], input[type="password"], input[type="email"], select {
+				height: 2em;
+				background-color: #FFF;
+				color:#222;
+				border-color: #DDD;
+				box-shadow: 0 0 0 1px #DDD;
+			}
+
+			input[type="text"]:focus,
+			input[type="password"]:focus,
+			input[type="email"]:focus,
+			select:focus,
+			textarea:focus {
+			border-color: #3cadd4;
+			box-shadow: 0 0 0 1px #3cadd4;
+		}
+
+		</style>
+		<script type="text/javascript">
+		$(document).ready(function (){
+			document.cookie="surveycompleted=1";
+		});
+			
+		</script>
+	</head>
+	<body class="landing">
+
+		<!-- Header -->
+			<header id="header" style="position:relative; background-image: url(images/dark_tint.png), url(images/bokeh_car_lights_bg.jpg); background-position:center; width:100%; padding-bottom:30px;">
+				<h1 ><a href="index.html">Giftkaro</a></h1>
+				<!-- <nav id="nav">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="generic.html">Generic</a></li>
+						<li><a href="elements.html">Elements</a></li>
+						<li><a href="#" class="button special">Sign Up</a></li>
+					</ul>
+				</nav> -->
+			</header>
+
+
+		<!-- survey main -->
+		<section id="one" class="wrapper style1 special">
+			<h2>We would like to thank you for participating in this survey.</h2>
+			<h5 style="margin-bottom:80px;">(All fields are optional to fill out)</h5>
+			<form action="Submit.php" method="post" style="padding:0% 12% 0% 12%;text-align: left;">
+				<div class="row uniform">
+					<div class="12u 12u$(small)">
+						<p style="text-align:left;">1. Gift Store Name:</p>
+					</div>
+					<div class="12u 12u$(small)">
+						<input name="StoreName" id="StoreName" value="" placeholder="Gift Store Name" type="text">
+					</div>
+
+
+
+					<div class="12u 12u$(small)">
+						<p style="text-align:left;">2. Contact info:</p>
+					</div>
+
+					<div class="5u 12u$(small)">
+						<input name="YourName" id="YourName" value="" placeholder="Your name" type="text">
+					</div>
+					<div class="3u 12u$(small)">
+						<input name="Phone" id="Phone" value="" placeholder="Phone number" type="text">
+					</div>
+					<div class="4u 12u$(small)">
+						<input name="E-mail" id="E-mail" value="" placeholder="e-mail" type="text">
+					</div>
+
+
+					<div class="5u 12u$(small)">
+						<input name="Address" id="Address" value="" placeholder="Address" type="text">
+					</div>
+					<div class="3u 12u$(small)">
+						<input name="Postal-Code" id="Postal-Code" value="" placeholder="Postal Code" type="text">
+					</div>
+					<div class="4u 12u$(small)">
+						<input name="City" id="City" value="" placeholder="City" type="text">
+					</div>
+
+
+					<div class="5u 12u$(small)">
+						<input name="State" id="State" value="" placeholder="State" type="text">
+					</div>
+					<div class="7u 12u$(small)">
+						<input name="Country" id="Country" value="" placeholder="Country" type="text">
+					</div>
+
+
+
+					<div class="12u 12u$(small)">
+						<p style="text-align:left;">3. Type of product store sells:</p>
+					</div>
+					<div class="4u 12u$(small)">
+						<input type="checkbox" id="S1" name="S1" value="True">
+						<label for="S1">Personalized Gifts</label>
+					</div>
+					<div class="4u 12u$(small)">
+						<input type="checkbox" id="S2" name="S2" value="True">
+						<label for="S2">Flowers / Bouquets</label>
+					</div>
+					<div class="4u 12u$(small)">
+						<input type="checkbox" id="S3" name="S3" value="True">
+						<label for="S3">Cakes</label>
+					</div>
+
+					<div class="4u 12u$(small)">
+						<input type="checkbox" id="S4" name="S4" value="True">
+						<label for="S4">Frames / Mugs</label>
+					</div>
+					<div class="4u 12u$(small)">
+						<input type="checkbox" id="S5" name="S5" value="True">
+						<label for="S5">Cards</label>
+					</div>
+					<div class="4u 12u$(small)">
+						<input name="Others" id="Others" value="" placeholder="Others" type="text">
+					</div>
+					
+					<div class="12u 12u$(small)">
+						<p style="text-align:left;">4. Does the store provide gift-wrap service?</p>
+					</div>
+					<div class="2u 12u$(small)">
+						<input type="radio" id="Gift-wrap-yes" name="Gift-wrap"value="True">
+						<label for="Gift-wrap-yes">Yes</label>
+					</div>
+					<div class="2u 12u$(small)">
+						<input type="radio" id="Gift-wrap-no" name="Gift-wrap"value="False">
+						<label for="Gift-wrap-no">No</label>
+					</div>
+					<div class="8u 12u$(small)">
+
+					</div>
+
+					<div class="12u 12u$(small)">
+						<p style="text-align:left;">5. Does the store offer delivery service?</p>
+					</div>
+					<div class="2u 12u$(small)">
+						<input type="radio" id="delivery-yes" name="delivery" value="True">
+						<label for="delivery-yes">Yes</label>
+					</div>
+					<div class="2u 12u$(small)">
+						<input type="radio" id="delivery-no" name="delivery"value="False">
+						<label for="delivery-no">No</label>
+					</div>
+					<div class="8u 12u$(small)">
+						<input name="delivery-Details" id="delivery-Details" value="" placeholder="If yes, details (area /charges?):" type="text">
+					</div>
+
+					<div class="12u 12u$(small)">
+						<p style="text-align:left;">6. Do store are associated with any online gifting store?</p>
+					</div>
+					<div class="2u 12u$(small)">
+						<input type="radio" id="store-yes" name="store"  value="True">
+						<label for="store-yes">Yes</label>
+					</div>
+					<div class="2u 12u$(small)">
+						<input type="radio" id="store-no" name="store"  value="False">
+						<label for="store-no">No</label>
+					</div>
+					<div class="8u 12u$(small)">
+						<input name="store-Details" id="store-Details" value="" placeholder="If yes, name:" type="text">
+					</div>
+
+
+					<!--div class="12u 12u$(small)">
+						<p style="text-align:left;">7. What is the average gift price, revenue, gift items sold in a day/month?</p>
+					</div>
+					<div class="12u 12u$(small)">
+						<input name="revenue" id="revenue" value="" placeholder="" type="text">
+					</div-->
+					
+					<div class="12u 12u$(small)">
+						<p style="text-align:left;">7. Do people ask for gift-customization?</p>
+					</div>
+					<div class="12u 12u$(small)">
+						<input name="customization" id="customization" value="" placeholder="" type="text">
+					</div>
+
+					<div class="12u 12u$(small)">
+						<p style="text-align:left;">8. What transaction fee are stores willing to pay?</p>
+					</div>
+					<div class="2u 12u$(small)">
+						<input type="radio" id="fee-yes" name="fee" value="Fixed">
+						<label for="fee-yes">Fixed</label>
+					</div>
+					<div class="10u 12u$(small)">
+						<input name="if-fixed" id="if-fixed" placeholder="If fixed (in %)" type="text">
+					</div>
+					<div class="2u 12u$(small)">
+						<input type="radio" id="fee-no" name="fee" value="Variable">
+						<label for="fee-no">Variable</label>
+					</div>
+					
+					<div class="2u 12u$(small)">
+						If variable, ranges 
+					</div>
+					<div class="4u 12u$(small)">
+						<input name="if-variable-from" id="if-variable-from" value="" placeholder="from (in %)" type="text">
+					</div>
+					<div class="4u 12u$(small)">
+						<input name="if-variable-to" id="if-variable-to" value="" placeholder="to (in %)" type="text">
+					</div>
+
+					<div class="12u 12u$(small)">
+						<p style="text-align:left;">9. Any Comment / Suggestions:</p>
+					</div>
+
+					<div class="12u 12u$(small)">
+						<input name="Comment" id="Comment" value="" placeholder="Comment / Suggestions" type="text">
+					</div>
+					<div class="12u 12u$(small)" style="text-align:right;">
+						<input style="width:20%;" id="submit" type="submit" value="Submit">
+					</div>
+				</div>
+			</form>
+		</section>	
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="container">
+					<div class="row">
+						<div class="8u 12u$(medium)">
+							<ul class="copyright">
+								<li>&copy; Giftkaro. All rights reserved.</li>
+								<li>Design: <a href="http://templated.co" target="_blank">TEMPLATED</a></li>
+								<li>Images: <a href="http://unsplash.com" target="_blank">Unsplash</a></li>
+							</ul>
+						</div>
+						<div class="4u$ 12u$(medium)">
+							<ul class="icons">
+								<li>
+									<a class="icon rounded fa-facebook"><span class="label">Facebook</span></a>
+								</li>
+								<li>
+									<a class="icon rounded fa-twitter"><span class="label">Twitter</span></a>
+								</li>
+								<li>
+									<a class="icon rounded fa-google-plus"><span class="label">Google+</span></a>
+								</li>
+								<li>
+									<a class="icon rounded fa-linkedin"><span class="label">LinkedIn</span></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</footer>
+
+	</body>
+</html>
